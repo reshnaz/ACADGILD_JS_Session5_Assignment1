@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/home/reshma/Documents/AcadGild/Web_Fundamentals/Session-5_04Oct2017/Assignment-1/style.css">
+	<script src="/home/reshma/Documents/AcadGild/Web_Fundamentals/Session-5_04Oct2017/Assignment-1/script.js"></script>
+	<title>S-5 Assignment-1</title>
+</head>
+
+<body>
+	<!--Find area of circle-->
+<form name="circle">
+	<div class=mainDiv>
+		<center><span>Enter length of radius below to find area of circle:</span></center>
+		<br>
+		<center>
+			<!-- This is where you input the radius -->
+			<input type="text" name="radius" id="radius">
+			<!-- Cicking on this function calls your JS function by passing the radius value -->
+			<input type="button" value="Find Area!" onClick="findArea(document.getElementById('radius').value)"> 
+			<br>
+			<!-- p element where result is displayed -->
+			<p id="area"></p>
+		</center>
+	</div>
+</form>
+
+</body>
+</html>
